@@ -1,0 +1,11 @@
+.contenedor{
+    display: grid;
+    justify-items: center;
+    height: 100vh;
+    background-image: url("../assets/img/ktc-hero-blog-gaming-cloud-gaming-advantages-disadvantages-lg.jpg");
+    
+}
+.contenedor-img{
+    background-image: url("../assets/img/among-us-en-luces-de-neon_1920x1080_xtrafondos.com\ \(1\).jpg");
+    background-size: cover;
+}

@@ -1,0 +1,86 @@
+.carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgb(0, 0, 0);
+}
+.carousel-item {
+    height: 400px;
+}
+main{
+    display: flex;
+    height: 70%;
+}
+.page-izq {
+    width: 60%;
+    padding: 0px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;    
+}
+.title-page{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;   
+}
+.title-page span {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 800    ;
+}
+.title-page h1 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.formulario {
+    height: 26%;
+    display: flex;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0;
+}
+.input {
+    outline: none;
+    padding: 1px 4px;
+    height: 32%;
+    width: 50%;
+    flex-grow: 1;
+    margin-right: 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.btn {
+    height: 32%;
+    width: 120px;
+}
+.container-card-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 24%;
+}
+.card-info{
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    background-color: rgb(230, 230, 230);
+    width: 120px;
+    height: 120px;
+    border-radius: 10px ;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.377);
+}
+.card-info h2 {
+    font-weight: 700;
+}
+.card-info span {
+    font-weight: 500;
+    font-size: 20px;
+}
+.page-der {
+    width: 40%;
+    margin: auto;
+}
